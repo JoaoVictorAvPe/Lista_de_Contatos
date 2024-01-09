@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+
+main {
+    background-color: aliceblue;
+}
+
+.contato {
+    border: solid red 2px;
+}
+
