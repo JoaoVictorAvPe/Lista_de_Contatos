@@ -2,28 +2,83 @@ body {
     margin: 0;
     padding: 0;
     background-color: aqua;
-    border: solid blue 2px;
-    width: 45%;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
     margin: auto;
+    margin-top: 40px;
+    min-width: 400px;
+    font-family:Arial, Helvetica, sans-serif ;
+    color: rgb(43, 41, 41);
+}
+
+h1 {
+    text-align: center;
 }
 
 .janela {
-    border: solid orange 2px;
-    
+    background-color: aliceblue;
     height: 400px;
-    overflow-y: scroll;
+    overflow:auto;
+    border-radius: 5px;
 }
 
-.conteudo {
-    margin: 15px;
+.card {
+    background-color: aliceblue;
+    margin: 0;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(43, 41, 41);
+    padding: 10px;
+    border-bottom: 1px rgb(207, 206, 206) solid;
+}
+
+.card .conteudo {
+    display: flex;
+}
+
+.card .conteudo .texto {
     display: flex;
     flex-direction: column;
-    background-color: aliceblue;
 }
 
-
-.contato {
-    border: solid red 2px;
-    margin: 15px;
+.card:hover {
+    background-color: rgb(207, 206, 206);
 }
 
+.card:hover .icone {
+    visibility: visible;
+}
+
+.card .foto {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    overflow: hidden;
+    min-width: 75px;
+    margin-right: 20px;
+}
+
+.card p {
+    margin: 0;
+}
+
+.nome {
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.email {
+    color: gray;
+}
+
+.card .icone {
+    margin-right: 5px;
+    visibility: hidden;
+}
+
+.edit {
+    margin-left: 15px;
+}
