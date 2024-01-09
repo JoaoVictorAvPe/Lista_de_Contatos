@@ -1,12 +1,16 @@
+html, body {
+    height: 100%;
+}
+
 body {
     margin: 0;
     padding: 0;
     background-color: aqua;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 35%;
     margin: auto;
-    margin-top: 40px;
     min-width: 400px;
     font-family:Arial, Helvetica, sans-serif ;
     color: rgb(43, 41, 41);
@@ -21,6 +25,7 @@ h1 {
     height: 400px;
     overflow:auto;
     border-radius: 5px;
+    box-shadow: .5px 1px 2px black;
 }
 
 .card {
@@ -77,6 +82,7 @@ h1 {
 .card .icone {
     margin-right: 5px;
     visibility: hidden;
+    opacity: .3;
 }
 
 .edit {
