@@ -2,13 +2,28 @@ body {
     margin: 0;
     padding: 0;
     background-color: aqua;
+    border: solid blue 2px;
+    width: 45%;
+    margin: auto;
 }
 
-main {
+.janela {
+    border: solid orange 2px;
+    
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.conteudo {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
     background-color: aliceblue;
 }
 
+
 .contato {
     border: solid red 2px;
+    margin: 15px;
 }
 
