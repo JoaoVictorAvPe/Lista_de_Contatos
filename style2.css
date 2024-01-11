@@ -1,0 +1,97 @@
+body {
+    background-color: aqua;
+    width: 75%;
+    max-width: 800px;
+    margin: auto;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header h1 {
+    text-align: center;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.janela {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+.card{
+    margin: 6px;
+    width: 250px;
+}
+
+.perfil1 {
+    background-image: url(imagens/thumb01.jpg);    
+}
+.perfil2 {
+    background-image: url(imagens/thumb02.jpg);
+}
+.perfil3 {
+    background-image: url(imagens/thumb03.jpg);
+}
+.perfil4 {
+    background-image: url(imagens/thumb04.jpg);
+}
+.perfil5 {
+    background-image: url(imagens/thumb05.jpg);
+}
+.perfil6 {
+    background-image: url(imagens/thumb06.jpg);
+}
+
+.card .background_perfil {
+    height: 125px;
+    background-size: cover;
+    background-position: center bottom;
+    position: relative;
+}
+
+.card .foto {
+    width: 70px;
+    border-radius: 50%;
+    position: absolute;
+    right: 90px;
+    top: 90px;
+}
+
+.card .conteudo {
+    background-color: antiquewhite;
+}
+
+.texto {
+    margin: 0;
+    padding: 0;
+}
+
+.nome, .email {
+    display: block;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.nome {
+    color: rgb(10, 24, 10);
+    padding-top: 45px;
+    font-size: 22px;
+}
+
+.icone {
+    background-color: rgb(202, 200, 200);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0;
+}
+
+.delete, .edit {
+    opacity: .3;
+}
+
+.delete:hover, .edit:hover {
+    opacity: 1;
+}
